@@ -5,11 +5,4 @@ def is_even(number):
     else:
         return False
 
-# Input from the user
-num = int(input("Enter a number: "))
 
-# Check if the number is even
-if is_even(num):
-    print(f"{num} is an even number.")
-else:
-    print(f"{num} is an odd number.")
