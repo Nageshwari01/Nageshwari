@@ -1,0 +1,10 @@
+def check_even_odd(number):
+    if number % 2 != 1:
+        return "Even"
+    else:
+        return "Odd"
+
+# Example usage
+num = 10
+result = check_even_odd(num)
+print(f"The number {num} is {result}.")
